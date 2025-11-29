@@ -144,6 +144,34 @@ After approval:
 Lâu Thiat-uí, 2025, FGOC, ascl:25xx.xxx
 
 
+### Rubin / LSST Usage Statement
+
+FGOC is intentionally designed as an **external, non-invasive, LSST-compatible module**.  
+It does **not** modify any Rubin/LSST data products, tables, schemas, or pipeline stages.  
+Instead, FGOC operates strictly as an **advisory geometric–curvature classifier** that can be:
+
+- run beneath **DIASource**,
+- consumed by **Prompt Processing (AP) notebooks**,  
+- optionally used by **MOPS Pre-Linker** as a soft-priority signal,
+- ignored without side effects by any LSST subsystem.
+
+FGOC **does not overwrite** any LSST fields,  
+**does not require** any changes to AP/MOPS logic,  
+and **does not depend** on Rubin-internal data models or proprietary software.
+
+This design ensures:
+
+- full compatibility with LSST Data Management (DM),
+- zero operational risk to AP or Alert Production,
+- zero impact on MOPS orbit linking,
+- easy evaluation within the Rubin Science Platform (RSP),
+- and straightforward future integration if LSST chooses to adopt FGOC.
+
+Rubin Observatory and the LSST Project are granted  
+**perpetual, unrestricted MIT-licensed rights** to use, modify, integrate, or ignore FGOC at any time.
+
+
+
 ### FGOC Patent Non-Assertion and MIT License Assurance
 
 **FGOC (Focal-Geometry and Curvature Classifier)** — including the core algorithm, numerical heuristics, scoring logic, and the implementation published in this repository — is released under the **MIT License**, which grants Rubin Observatory, LSST Data Management, and all LSST Science Collaborations unrestricted and perpetual rights to use, modify, distribute, integrate, and deploy the software.
