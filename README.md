@@ -8,7 +8,7 @@ FGOC is designed to complement existing LSST pipelines by supplying a determinis
 
 ---
 
-## 🚀 Features
+##  Features
 
 - **Deterministic** — No orbit fitting, no stochastic sampling, no optimization.  
 - **Ultra-fast** — <1 ms per short arc.  
@@ -23,14 +23,7 @@ FGOC is designed to complement existing LSST pipelines by supplying a determinis
 
 ---
 
-## 🔧 Installation
-
-FGOC depends only on NumPy.
-
-```bash
-pip install numpy
-
-📘 Quick Start
+Quick Start
 from fgoc import fgoc
 
 ra  = [10.0, 10.002, 10.004]
@@ -45,52 +38,50 @@ print("Axis:", axis)
 print("Curvature sign:", sign)
 
 
+
 Typical runtime:
 
 0.3–0.8 ms per arc
 
-🧠 Method Overview
+
+Method Overview
 
 FGOC operates entirely in spherical focal-plane geometry:
 
-1. RA/DEC → unit vectors
-
+RA/DEC → unit vectors
 Standard spherical→Cartesian conversion.
 
-2. Segment vectors
-
+Segment vectors
 Directional tangent estimates.
 
-3. Great-circle axis estimation
-
+Great-circle axis estimation
 Summed cross-products give a stable normal vector.
 
-4. Angular residuals
-
+Angular residuals
 Deviation from inertial motion.
 
-5. Curvature sign and magnitude
-
+Curvature sign and magnitude
 Using triple products and second-difference operators.
 
-6. Combined anomaly score
-
+Combined anomaly score
 Deterministic; no iteration.
 
-📊 Outputs
+Outputs
 Output	Description
 fgoc_flag	Boolean anomaly indicator
 fgoc_score	Combined geometry–curvature score
 focal_axis	Estimated great-circle axis
 curvature_sign	+1 or –1
-🔌 LSST Integration Notes
+
+LSST Integration Notes
 
 FGOC is designed specifically for LSST Prompt Processing and short-arc diagnostics.
 
-✔ Integration point
+Integration point
 DIASource  →  FGOC  →  Pre-Linker  →  MOPS
 
-✔ Perfect for shadow-mode
+
+Perfect for shadow-mode
 
 FGOC requires no schema modification and performs no fitting, making it suitable for:
 
@@ -104,7 +95,7 @@ early anomaly detection
 
 pre-linking prioritization
 
-✔ No impact on existing LSST/AP/MOPS logic
+No impact on existing LSST/AP/MOPS logic
 
 FGOC does not modify:
 
@@ -124,7 +115,7 @@ Arc length	Runtime	Notes
 
 FGOC remains robust under realistic astrometric noise.
 
-🔗 Use Cases
+Use Cases
 1. Early ISO identification
 
 Detects non-Keplerian curvature quickly.
@@ -141,14 +132,15 @@ Sensitive to subtle RA/DEC systematics (useful for AOS closed-loop stability).
 
 Use fgoc_score to weight short arcs.
 
-📁 Repository Structure
+Repository Structure
 fgoc/
  ├── fgoc.py
  ├── README.md
  ├── LICENSE
  └── .gitignore
 
-📑 Citation
+
+Citation
 
 Until ASCL assigns a permanent ID:
 
@@ -159,6 +151,6 @@ After assignment:
 
 Lâu Thiat-uí 2025, FGOC, ascl:25xx.xxx
 
-📬 Contact
+Contact
 Lâu Thiat-uí  
 a8864666@gmail.com
