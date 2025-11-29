@@ -144,29 +144,33 @@ After approval:
 Lâu Thiat-uí, 2025, FGOC, ascl:25xx.xxx
 
 
-《FGOC Patent Non-Assertion and MIT License Assurance》
-FGOC (Focal-Geometry and Curvature Classifier) — including the core algorithm, numerical heuristics, scoring logic, and the current implementation published in this repository — is released under the MIT License, which grants Rubin Observatory, LSST Data Management, and all LSST Science Collaborations unrestricted and perpetual rights to use, modify, distribute, integrate, and deploy the software.
+### FGOC Patent Non-Assertion and MIT License Assurance
 
-The author provides the following additional Patent Non-Assertion Guarantee:
+**FGOC (Focal-Geometry and Curvature Classifier)** — including the core algorithm, numerical heuristics, scoring logic, and the implementation published in this repository — is released under the **MIT License**, which grants Rubin Observatory, LSST Data Management, and all LSST Science Collaborations unrestricted and perpetual rights to use, modify, distribute, integrate, and deploy the software.
 
-“Regardless of the existence or future outcome of any patent application related to geometric–curvature classification methods, the author hereby irrevocably agrees not to assert any patent claims against Rubin Observatory, the LSST Project, or any Rubin/LSST-affiliated institutions for the use, implementation, modification, evaluation, or deployment of FGOC as released under the MIT License.”
+The author provides the following additional **Patent Non-Assertion Guarantee**:
 
-This guarantees that Rubin/LSST has permanent legal freedom-to-operate, independent of any pending or future patents.
+> “Regardless of the existence or future outcome of any patent application related to geometric–curvature classification methods, the author hereby irrevocably agrees not to assert any patent claims against Rubin Observatory, the LSST Project, or any Rubin/LSST-affiliated institutions for the use, implementation, modification, evaluation, or deployment of FGOC as released under the MIT License.”
 
+This ensures that **Rubin/LSST has permanent and unrestricted legal freedom-to-operate**, independent of any pending or future patents.
+
+---
+
+### License
+
+MIT License  
 Copyright © 2025 Lâu Thiat-uí
-License: MIT
-Contact: a8864666@gmail.com
 
-Contact
-Lâu Thiat-uí
+---
+
+### Contact
+
+Lâu Thiat-uí  
 a8864666@gmail.com
 
-FGCC / FGOC — Patent Pending
+---
 
+### Patent Status
 
-
-
-
-
-
-
+FGCC / FGOC — Patent Pending  
+(*Patent pending does **not** restrict the MIT-licensed FGOC implementation nor the Non-Assertion guarantee above.*)
