@@ -27,6 +27,12 @@ FGOC is designed to complement existing LSST pipelines by supplying a determinis
 
 ---
 
+## Requirements
+
+- Python >= 3.9
+- NumPy >= 1.20
+
+
 ## Installation
 
 FGOC depends only on NumPy.
@@ -179,6 +185,10 @@ BibTeX
   url          = {https://github.com/a8864666-rgb/fgoc},
   note         = {Version 1.0, MIT License},
 }
+
+After ASCL assigns an ID, please update the citation to:
+
+Lâu Thiat-uí, 2025, FGOC, ascl:25xx.xxx
 
 Contact
 
