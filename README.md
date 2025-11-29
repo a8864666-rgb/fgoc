@@ -1,4 +1,5 @@
-FGOC: Focal-Geometry and Curvature Classifier
+# FGOC: Focal-Geometry and Curvature Classifier
+
 
 A deterministic, <1 ms/arc classifier for LSST DIASource-level short-arc geometry and curvature diagnostics.
 
