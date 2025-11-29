@@ -64,15 +64,13 @@ Method Summary
 
 FGOC works entirely in spherical focal-plane geometry:
 
-Convert RA/DEC to unit vectors
+1. Convert RA/DEC to unit vectors  
+2. Construct segment directions  
+3. Estimate great-circle axis  
+4. Compute angular residuals  
+5. Determine curvature sign  
+6. Produce normalized score  
 
-Construct segment directions
-
-Estimate great-circle axis
-
-Compute angular residuals
-
-Determine curvature sign and normalized score
 
 No iteration, fitting, or dynamical modeling is used.
 
