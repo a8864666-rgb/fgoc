@@ -136,6 +136,26 @@ fgoc/
  ├── LICENSE
  └── .gitignore
 
+def fgoc(ra, dec, mjd):
+    """
+    Parameters
+    ----------
+    ra : list[float]
+        Right Ascension in degrees.
+    dec : list[float]
+        Declination in degrees.
+    mjd : list[float]
+        Observation time in MJD.
+
+    Returns
+    -------
+    fgoc_flag : bool
+    fgoc_score : float
+    focal_axis : np.ndarray
+    curvature_sign : int  (+1 or -1)
+    """
+
+
 
 Citation
 
