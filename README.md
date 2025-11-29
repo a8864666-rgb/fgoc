@@ -1,3 +1,5 @@
+FGOC: Focal-Geometry and Curvature Classifier
+
 A deterministic, <1 ms/arc classifier for LSST DIASource-level short-arc geometry and curvature diagnostics.
 
 FGOC provides an ultra-lightweight geometric–curvature analysis designed for early identification of dynamically unusual DIASource tracklets during LSST Prompt Processing.
@@ -5,7 +7,7 @@ The module runs directly on short-arc RA/DEC/MJD data, performs no orbit fitting
 
 FGOC is designed to complement existing LSST pipelines by supplying a deterministic, fast, fully reversible diagnostic layer for early anomaly detection and shadow-mode evaluation of astrometric stability.
 
-🚀 Features
+Features
 
 Deterministic — No orbit fitting, no stochastic sampling, no optimization.
 
@@ -27,13 +29,13 @@ focal_axis — Estimated great-circle axis
 
 curvature_sign — +1 or –1
 
-🔧 Installation
+Installation
 
 FGOC depends only on NumPy.
 
 pip install numpy
 
-📘 Quick Start
+Quick Start
 
 from fgoc import fgoc
 
@@ -50,7 +52,7 @@ print("Curvature sign:", sign)
 
 Typical runtime: 0.3–0.8 ms per arc
 
-🧠 Method Overview
+Method Overview
 
 FGOC operates entirely in spherical focal-plane geometry:
 
@@ -66,13 +68,13 @@ Curvature sign and magnitude
 
 Combined anomaly score
 
-📊 Outputs
+Outputs
 Output	Description
 fgoc_flag	Boolean anomaly indicator
 fgoc_score	Combined geometry–curvature score
 focal_axis	Estimated great-circle axis
 curvature_sign	+1 or –1
-🔌 LSST Integration Notes
+LSST Integration Notes
 
 FGOC is designed specifically for LSST Prompt Processing and short-arc diagnostics.
 
@@ -106,7 +108,7 @@ Alert Production rules
 
 orbit fitting routines
 
-🧪 Benchmark Performance
+Benchmark Performance
 Arc length	Runtime	Notes
 2 detections	~0.20 ms	minimum geometry
 3 detections	0.30–0.50 ms	full curvature
@@ -114,7 +116,7 @@ Arc length	Runtime	Notes
 
 FGOC remains robust under realistic astrometric noise.
 
-🔗 Use Cases
+Use Cases
 
 Early ISO identification
 
@@ -124,7 +126,7 @@ Astrometric diagnostics
 
 Pre-linking prioritization
 
-📁 Repository Structure
+Repository Structure
 
 fgoc/
 ├── fgoc.py
@@ -132,17 +134,13 @@ fgoc/
 ├── LICENSE
 └── .gitignore
 
-📑 Citation
+Citation
 
 Until ASCL assigns a permanent ID:
 
 Lâu Thiat-uí, FGOC: Focal-Geometry and Curvature classifier, ASCL (submitted 2025).
 
-After assignment:
-
-Lâu Thiat-uí 2025, FGOC, ascl:25xx.xxx
-
-📬 Contact
+Contact
 
 Lâu Thiat-uí
 a8864666@gmail.com
