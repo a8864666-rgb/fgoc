@@ -20,7 +20,7 @@ Reversible and isolated — Safe for shadow-mode execution.
 
 Pipeline-compatible — Designed to sit before or alongside the MOPS Pre-Linker.
 
-Geometry-driven outputs:
+Geometry-driven outputs：
 
 fgoc_flag — Boolean anomaly indicator
 
@@ -28,7 +28,7 @@ fgoc_score — Normalized anomaly score
 
 focal_axis — Estimated great-circle axis
 
-curvature_sign — +1 or –1
+curvature_sign — +1 or −1
 
 Installation
 
@@ -37,10 +37,9 @@ FGOC depends only on NumPy.
 pip install numpy
 
 Quick Start
-
 from fgoc import fgoc
 
-ra = [10.0, 10.002, 10.004]
+ra  = [10.0, 10.002, 10.004]
 dec = [20.0, 20.001, 20.002]
 mjd = [60000.0, 60000.01, 60000.02]
 
@@ -50,6 +49,7 @@ print("FGOC flag:", flag)
 print("FGOC score:", score)
 print("Axis:", axis)
 print("Curvature sign:", sign)
+
 
 Typical runtime: 0.3–0.8 ms per arc
 
@@ -65,22 +65,21 @@ Great-circle axis estimation
 
 Angular residuals
 
-Curvature sign and magnitude
+Curvature sign & magnitude
 
-Combined anomaly score
+Combined anomaly score（deterministic, no iteration）
 
 Outputs
 Output	Description
 fgoc_flag	Boolean anomaly indicator
 fgoc_score	Combined geometry–curvature score
 focal_axis	Estimated great-circle axis
-curvature_sign	+1 or –1
+curvature_sign	+1 or −1
 LSST Integration Notes
 
 FGOC is designed specifically for LSST Prompt Processing and short-arc diagnostics.
 
 Integration point
-
 DIASource → FGOC → Pre-Linker → MOPS
 
 Perfect for shadow-mode
@@ -99,7 +98,7 @@ pre-linking prioritization
 
 No impact on existing LSST/AP/MOPS logic
 
-FGOC does not modify:
+FGOC does NOT modify:
 
 DIASource tables
 
@@ -121,30 +120,26 @@ Use Cases
 
 Early ISO identification
 
-Anomalous NEO motion
+Anomalous NEO motion detection
 
-Astrometric diagnostics
+Astrometric diagnostics（AOS stability, RA/DEC systematics）
 
-Pre-linking prioritization
+Pre-linking prioritization for MOPS
 
 Repository Structure
-
 fgoc/
-├── fgoc.py
-├── README.md
-├── LICENSE
-└── .gitignore
+ ├── fgoc.py
+ ├── README.md
+ ├── LICENSE
+ └── .gitignore
 
 Citation
 
 Until ASCL assigns a permanent ID:
 
-Lâu Thiat-uí, FGOC: Focal-Geometry and Curvature classifier, ASCL (submitted 2025).
+Lâu Thiat-uí, FGOC: Focal-Geometry and Curvature Classifier, ASCL (submitted 2025).
 
 Contact
 
 Lâu Thiat-uí
 a8864666@gmail.com
-
-
-
