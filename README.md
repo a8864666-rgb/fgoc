@@ -8,7 +8,7 @@ FGOC is designed to complement existing LSST pipelines by supplying a determinis
 
 ---
 
-##  Features
+## 🚀 Features
 
 - **Deterministic** — No orbit fitting, no stochastic sampling, no optimization.  
 - **Ultra-fast** — <1 ms per short arc.  
@@ -23,15 +23,14 @@ FGOC is designed to complement existing LSST pipelines by supplying a determinis
 
 ---
 
-## Installation
+## 🔧 Installation
 
 FGOC depends only on NumPy.
 
 ```bash
 pip install numpy
 
-
-Quick Start
+📘 Quick Start
 from fgoc import fgoc
 
 ra  = [10.0, 10.002, 10.004]
@@ -50,7 +49,7 @@ Typical runtime:
 
 0.3–0.8 ms per arc
 
-Method Overview
+🧠 Method Overview
 
 FGOC operates entirely in spherical focal-plane geometry:
 
@@ -78,13 +77,13 @@ Using triple products and second-difference operators.
 
 Deterministic; no iteration.
 
-Outputs
+📊 Outputs
 Output	Description
 fgoc_flag	Boolean anomaly indicator
 fgoc_score	Combined geometry–curvature score
 focal_axis	Estimated great-circle axis
 curvature_sign	+1 or –1
-LSST Integration Notes
+🔌 LSST Integration Notes
 
 FGOC is designed specifically for LSST Prompt Processing and short-arc diagnostics.
 
@@ -125,7 +124,7 @@ Arc length	Runtime	Notes
 
 FGOC remains robust under realistic astrometric noise.
 
-Use Cases
+🔗 Use Cases
 1. Early ISO identification
 
 Detects non-Keplerian curvature quickly.
@@ -142,14 +141,14 @@ Sensitive to subtle RA/DEC systematics (useful for AOS closed-loop stability).
 
 Use fgoc_score to weight short arcs.
 
-Repository Structure
+📁 Repository Structure
 fgoc/
  ├── fgoc.py
  ├── README.md
  ├── LICENSE
  └── .gitignore
 
-Citation
+📑 Citation
 
 Until ASCL assigns a permanent ID:
 
@@ -160,6 +159,6 @@ After assignment:
 
 Lâu Thiat-uí 2025, FGOC, ascl:25xx.xxx
 
-Contact
+📬 Contact
 Lâu Thiat-uí  
 a8864666@gmail.com
