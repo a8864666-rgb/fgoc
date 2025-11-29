@@ -169,6 +169,21 @@ Lâu Thiat-uí
 a8864666@gmail.com
 
 
+Citation
+
+If you use FGOC in your research, please cite:
+
+Lâu Thiat-uí (2025),
+FGOC: Focal-Geometry and Curvature Classifier for Early Identification of Non-Keplerian and Interstellar Trajectories,
+Astrophysics Source Code Library (submitted).
+
+BibTeX
+@misc{Lau2025FGOC,
+  author       = {Lâu, Thiat-uí},
+  title        = {FGOC: Focal-Geometry and Curvature Classifier for Early Identification of Non-Keplerian and Interstellar Trajectories},
+  year         = 2025,
+  howpublished = {Astrophysics Source Code Library, submitted},
+}
 
 
 
