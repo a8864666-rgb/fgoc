@@ -152,7 +152,6 @@ The author provides the following additional **Patent Non-Assertion Guarantee**:
 
 > “Regardless of the existence or future outcome of any patent application related to geometric–curvature classification methods, the author hereby irrevocably agrees not to assert any patent claims against Rubin Observatory, the LSST Project, or any Rubin/LSST-affiliated institutions for the use, implementation, modification, evaluation, or deployment of FGOC as released under the MIT License.”
 
-This ensures that **Rubin/LSST has permanent and unrestricted legal freedom-to-operate**, independent of any pending or future patents.
 
 ---
 
