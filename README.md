@@ -163,19 +163,14 @@ Until ASCL assigns a permanent ID:
 
 Lâu Thiat-uí, FGOC: Focal-Geometry and Curvature Classifier, ASCL (submitted 2025).
 
-Contact
-
-Lâu Thiat-uí
-a8864666@gmail.com
-
-
-Citation
-
-If you use FGOC in your research, please cite:
 
 Lâu Thiat-uí (2025),
 FGOC: Focal-Geometry and Curvature Classifier for Early Identification of Non-Keplerian and Interstellar Trajectories,
 Astrophysics Source Code Library (submitted).
+GitHub URL: https://github.com/a8864666-rgb/fgoc
+
+License: MIT
+Version: v1.0
 
 BibTeX
 @misc{Lau2025FGOC,
@@ -183,7 +178,15 @@ BibTeX
   title        = {FGOC: Focal-Geometry and Curvature Classifier for Early Identification of Non-Keplerian and Interstellar Trajectories},
   year         = 2025,
   howpublished = {Astrophysics Source Code Library, submitted},
+  url          = {https://github.com/a8864666-rgb/fgoc},
+  note         = {Version 1.0, MIT License},
+
+Contact
+
+Lâu Thiat-uí
+a8864666@gmail.com
 }
+
 
 
 
