@@ -143,8 +143,19 @@ BibTeX:
 After approval:
 Lâu Thiat-uí, 2025, FGOC, ascl:25xx.xxx
 
-License
-MIT License.
+
+《FGOC Patent Non-Assertion and MIT License Assurance》
+FGOC (Focal-Geometry and Curvature Classifier) — including the core algorithm, numerical heuristics, scoring logic, and the current implementation published in this repository — is released under the MIT License, which grants Rubin Observatory, LSST Data Management, and all LSST Science Collaborations unrestricted and perpetual rights to use, modify, distribute, integrate, and deploy the software.
+
+The author provides the following additional Patent Non-Assertion Guarantee:
+
+“Regardless of the existence or future outcome of any patent application related to geometric–curvature classification methods, the author hereby irrevocably agrees not to assert any patent claims against Rubin Observatory, the LSST Project, or any Rubin/LSST-affiliated institutions for the use, implementation, modification, evaluation, or deployment of FGOC as released under the MIT License.”
+
+This guarantees that Rubin/LSST has permanent legal freedom-to-operate, independent of any pending or future patents.
+
+Copyright © 2025 Lâu Thiat-uí
+License: MIT
+Contact: a8864666@gmail.com
 
 Contact
 Lâu Thiat-uí
