@@ -165,8 +165,8 @@ This design ensures:
 - easy evaluation within the Rubin Science Platform (RSP),
 - and straightforward future integration if LSST chooses to adopt FGOC.
 
-R> **Rubin Observatory and the LSST Project are granted  
-> perpetual, unrestricted MIT-licensed rights to use, modify, integrate, or ignore FGOC at any time.**
+<mark><b>Rubin Observatory and the LSST Project are granted perpetual, unrestricted MIT-licensed rights to use, modify, integrate, or ignore FGOC at any time.</b></mark>
+
 
 
 
