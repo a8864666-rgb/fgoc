@@ -17,7 +17,7 @@ Deterministic — No orbit fitting, no optimization, no randomization.
 Ultra-fast — Typically 0.3–0.8 ms per arc.
 Non-invasive — Reads only DIASource-level RA/DEC/MJD data.
 Reversible & isolated — Safe for commissioning and shadow-mode execution.
-Pipeline-compatible — Designed to sit before or alongside the LSST MOPS Pre-Linker.nker.
+Pipeline-compatible — Designed to sit before or alongside the LSST MOPS Pre-Linker.
 
 ### Outputs
 
@@ -124,17 +124,17 @@ Please cite: Lâu Thiat-uí (2025), FGOC, Astrophysics Source Code Library, ascl
 
 BibTeX:
 @misc{Lau2025FGOC,
-  author       = {Lâu, Thiat-uí},
-  title        = {FGOC: Focal-Geometry and Curvature Classifier for Early Identification of Non-Keplerian and Interstellar Trajectories},
-  year         = {2025},
-  howpublished = {Astrophysics Source Code Library, ascl:2512.003}
-  url          = {https://github.com/a8864666-rgb/fgoc},
-  note         = {Version 1.0, MIT License},
+author = {Lâu, Thiat-uí},
+title = {FGOC: Focal-Geometry and Curvature Classifier for Early Identification of Non-Keplerian and Interstellar Trajectories},
+year = {2025},
+howpublished = {Astrophysics Source Code Library, ascl:2512.003},
+url = {https://github.com/a8864666-rgb/fgoc}
+,
+note = {Version 1.0, MIT License},
 }
 
 
-After approval:
-Lâu Thiat-uí, 2025, FGOC, ascl:2512.003
+ASCL entry: ascl:2512.003
 
 
 ### Rubin / LSST Usage Statement
