@@ -139,7 +139,7 @@ BibTeX:
 
 
 After approval:
-Lâu Thiat-uí, 2025, FGOC, ascl:25xx.xxx
+Lâu Thiat-uí, 2025, FGOC, ascl:2512.003
 
 
 ### Rubin / LSST Usage Statement
