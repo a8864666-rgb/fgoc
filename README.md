@@ -128,7 +128,7 @@ BibTeX:
   author       = {Lâu, Thiat-uí},
   title        = {FGOC: Focal-Geometry and Curvature Classifier for Early Identification of Non-Keplerian and Interstellar Trajectories},
   year         = {2025},
-  howpublished = {Astrophysics Source Code Library, submitted},
+  howpublished = {Astrophysics Source Code Library, ascl:2512.003}
   url          = {https://github.com/a8864666-rgb/fgoc},
   note         = {Version 1.0, MIT License},
 }
