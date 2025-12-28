@@ -121,7 +121,7 @@ fgoc/
 
 Citation
 
-Until an ASCL ID is assigned, please cite:
+Until an ASCL ID is 2512.003, please cite:
 Lâu Thiat-uí (2025),
 FGOC: Focal-Geometry and Curvature Classifier for Early Identification of Non-Keplerian and Interstellar Trajectories,
 Astrophysics Source Code Library (submitted).
