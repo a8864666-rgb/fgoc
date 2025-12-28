@@ -8,8 +8,7 @@ Overview
 FGOC is an ultra-lightweight Python module for rapid, geometry-based analysis of short-arc astrometric detections.
 It operates directly on RA/DEC/MJD triplets and provides early, deterministic diagnostics useful for LSST Prompt Processing pipelines.
 
-The classifier performs no orbit fitting, uses no stochastic sampling, and introduces no changes to existing LSST AP or MOPS workflows.
-It is suitable for shadow-mode testing, early anomaly flagging, and rapid triage of unusual astrometric motions.
+FGOC performs no orbit fitting internally; it can operate on RA/DEC/MJD triplets (astrometry-only mode) or consume successive preliminary orbit-fit state vectors (orbit-fit diagnostic mode, Eq.4–6 exact).
 ---
 
 ## Key Features
