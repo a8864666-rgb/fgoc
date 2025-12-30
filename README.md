@@ -145,6 +145,9 @@ Please cite:
   eid          = {ascl:2512.003},
   url          = {https://ascl.net/2512.003}
 }
+```
+
+```bibtex
 @software{Lau_FGOC_2025,
   author    = {Lâu, Thiat-uí},
   title     = {FGOC: Focal-Geometry and Curvature Classifier},
