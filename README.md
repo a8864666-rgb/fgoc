@@ -137,6 +137,7 @@ ADS bibcode: **2025ascl.soft12003L**.
   eid          = {ascl:2512.003},
   url          = {https://ascl.net/2512.003}
 }
+```
 
 ### Rubin / LSST Usage Statement
 
