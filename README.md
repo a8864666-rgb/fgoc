@@ -133,15 +133,25 @@ Please cite:
 
 
 ### BibTeX
+
+### ASCL record (recommended for astronomy journals)
 ```bibtex
 @misc{2025ascl.soft12003L,
   author       = {Lâu, Thiat-uí},
-  title        = {FGOC: Focal-Geometry and Curvature classifier},
+  title        = {FGOC: Focal-Geometry and Curvature Classifier},
   howpublished = {Astrophysics Source Code Library, ascl:2512.003},
   year         = {2025},
   month        = dec,
   eid          = {ascl:2512.003},
   url          = {https://ascl.net/2512.003}
+}
+@software{Lau_FGOC_2025,
+  author    = {Lâu, Thiat-uí},
+  title     = {FGOC: Focal-Geometry and Curvature Classifier},
+  year      = {2025},
+  publisher = {Zenodo},
+  doi       = {10.5281/zenodo.18091564},
+  url       = {https://doi.org/10.5281/zenodo.18091564}
 }
 ```
 
