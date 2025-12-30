@@ -126,6 +126,8 @@ Please cite:
 Lâu Thiat-uí (2025), FGOC, Astrophysics Source Code Library, **ascl:2512.003**.  
 ADS bibcode: **2025ascl.soft12003L**.
 
+### BibTeX
+```bibtex
 @misc{2025ascl.soft12003L,
   author       = {Lâu, Thiat-uí},
   title        = {FGOC: Focal-Geometry and Curvature classifier},
@@ -135,8 +137,6 @@ ADS bibcode: **2025ascl.soft12003L**.
   eid          = {ascl:2512.003},
   url          = {https://ascl.net/2512.003}
 }
-
-
 
 ### Rubin / LSST Usage Statement
 
