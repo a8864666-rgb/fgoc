@@ -137,6 +137,7 @@ ADS bibcode: **2025ascl.soft12003L**.
 }
 
 
+
 ### Rubin / LSST Usage Statement
 
 FGOC is intentionally designed as an **external, non-invasive, LSST-compatible module**.  
