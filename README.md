@@ -124,8 +124,13 @@ fgoc/
 ## Citation
 
 Please cite:
-Lâu Thiat-uí (2025), FGOC, Astrophysics Source Code Library, **ascl:2512.003**.  
-ADS bibcode: **2025ascl.soft12003L**.
+
+- **ASCL record:** ascl:2512.003  
+- **ADS bibcode:** 2025ascl.soft12003L  
+- **Zenodo DOI (concept; all versions):** 10.5281/zenodo.18091564  
+- **Zenodo DOI (v1.0.0):** 10.5281/zenodo.18091565  
+- **ORCID:** https://orcid.org/0009-0001-1233-701X
+
 
 ### BibTeX
 ```bibtex
