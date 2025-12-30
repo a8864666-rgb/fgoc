@@ -126,11 +126,9 @@ Please cite:
 Lâu Thiat-uí (2025), FGOC, Astrophysics Source Code Library, **ascl:2512.003**.  
 ADS bibcode: **2025ascl.soft12003L**.
 
-### BibTeX
-```bibtex
 @misc{2025ascl.soft12003L,
-  author       = {L\^{a}u, Thiat-u\'{\i}},
-  title        = {{FGOC: Focal-Geometry and Curvature classifier}},
+  author       = {Lâu, Thiat-uí},
+  title        = {FGOC: Focal-Geometry and Curvature classifier},
   howpublished = {Astrophysics Source Code Library, ascl:2512.003},
   year         = {2025},
   month        = dec,
