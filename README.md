@@ -2,8 +2,7 @@
 
 [![ASCL record](https://img.shields.io/badge/ascl-2512.003-blue.svg)](https://ascl.net/2512.003)
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0001--1233--701X-green.svg)](https://orcid.org/0009-0001-1233-701X)
-[![DOI](https://zenodo.org/badge/DOI/<CONCEPT_DOI>.svg)](https://doi.org/<CONCEPT_DOI>)
-
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18091564.svg)](https://doi.org/10.5281/zenodo.18091564)
 
 A deterministic, sub-millisecond classifier for LSST DIASource short-arc geometry and curvature diagnostics.
 
